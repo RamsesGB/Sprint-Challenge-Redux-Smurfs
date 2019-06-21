@@ -26,7 +26,7 @@ export const POST_SMURF_FAILURE = 'POST_SMURF_FAILURE';
 
 export const postSmurf = smurf => dispatch => {
   dispatch({ type: POST_SMURF_START });
-  axios
+  return axios
   .post('http://localhost:3333/smurfs', smurf)
   .then(res => {
     dispatch({ type: POST_SMURF_SUCCESS, payload: res.data})

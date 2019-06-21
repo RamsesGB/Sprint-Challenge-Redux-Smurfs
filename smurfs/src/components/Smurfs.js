@@ -11,7 +11,7 @@ const Smurfs = props => {
             return (
               <Smurf
                 name={smurf.name}
-                id={smurf.id}
+                // id={smurf.id}
                 age={smurf.age}
                 height={smurf.height}
                 key={smurf.id}
@@ -23,8 +23,5 @@ const Smurfs = props => {
     );
 }
 
-// Smurf.defaultProps = {
-//  smurfs: [],
-// };
 
 export default Smurfs;
