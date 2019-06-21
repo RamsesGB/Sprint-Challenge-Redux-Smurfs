@@ -22,15 +22,15 @@ class SmurfForm extends Component {
   };
 
   handleSubmit = e => {
-    this.props.addSmurf(e, this.state.smurf);
-    console.log(this.state.smurf);
-    this.setState({
-        smurf: {
-            name: '',
-            age: '',
-            height: ''
-        }
-    });
+    // this.props.addSmurf(e, this.state.smurf);
+    // console.log(this.state.smurf);
+    // this.setState({
+    //     smurf: {
+    //         name: '',
+    //         age: '',
+    //         height: ''
+    //     }
+    // });
 }
   
 
